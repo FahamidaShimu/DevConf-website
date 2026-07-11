@@ -1,0 +1,1 @@
+Generate a new section design for a beginner HTML and CSS developer conference website called DEVCONF 2026. The section should be 'Why Attend DEVCONF 2026'. The design must be simple because this is an assignment using only HTML5 and CSS3. 

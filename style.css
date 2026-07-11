@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  color: #1a1a2e;
+  line-height: 1.6;
+}
+ 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ 
+ul {
+  list-style: none;
+}
+ 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+  /* buttons */
+  
+  .btn {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: none;
+  }
+ 
+.btn-primary {
+  background-color: #3b4fe4;
+  color: #ffffff;
+}
+
+/* ____Logo____ */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+ 
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+ 
+.logo-text {
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaf0;
+  position: relative;
+}
+ 
+.nav-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ 
+.nav-menu ul {
+  display: flex;
+  gap: 34px;
+}
+ 
+.nav-menu a {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333344;
+}
+ 
+.nav-menu a:hover {
+  color: #3b4fe4;
+}
+ 
