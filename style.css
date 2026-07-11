@@ -95,3 +95,47 @@ img {
   color: #3b4fe4;
 }
  
+/* hero section */
+
+.hero {
+  position: relative;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(assets/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(10, 10, 25, 0.72);
+}
+ 
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 760px;
+  color: #ffffff;
+}
+ 
+.hero-content h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+ 
+.hero-content h1 em {
+  font-style: italic;
+  font-weight: 800;
+}
+ 
+.hero-content p {
+  font-size: 1.1rem;
+  color: #dcdce6;
+  margin-bottom: 36px;
+}
